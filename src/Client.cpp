@@ -22,23 +22,101 @@ Client::~Client() {
 
 
 void Client::initialize(unsigned int player, unsigned int board_size){
+    this->player = player; //so we can call player later
+    string actBoard = "player_" + to_string(player)+ ".action_board.json"; //action board
+
+
+    vector<vector<int>> board(board_size, vector<int> (board_size, 0)); //   board: [
+    ofstream output;                                                    //              [
+    output.open(actBoard, ofstream::out);                               //                  0
+    if(output){ //cereal stuff                                          //                  0
+        {                                                                  //           ]
+            cereal::JSONOutputArchive arc(output);                         //etc    [
+            arc(CEREAL_NVP(board));                                                 //0
+        }
+        output.close();
+        initialized = true;
+    }
 }
 
 
 void Client::fire(unsigned int x, unsigned int y) {
+
+    string fName = "player_" + to_string(player) + ".shot.json";
+
+    ofstream file;
+    file.open(fName, ofstream::out);
+    if(file) { //writing it out
+        {
+            cereal::JSONOutputArchive arc(file);
+            arc(CEREAL_NVP(x));
+            arc(CEREAL_NVP(y));
+        }
+        file.close();
+    }
+
 }
 
 
 bool Client::result_available() {
+
 }
 
 
-int Client::get_result() {
-}
+int Client::get_result() {  //pretty much cut and pasted fire and then switched all things out to in
 
+    string fName = "player_" + to_string(player) + ".result.json";
+    ifstream file;
+    file.open(fName, ifstream::in);
+    int res;
+    remove(fName.c_str()); //cleanup
+    if(file) {
+        {
+            cereal::JSONInputArchive arc(file);
+            arc(res);
+        }
+        file.close();
+    }
+    if(res > 1 || res < -1){
+        throw new ClientException("Bad Result");
+    }
+    return res;
+}
 
 
 void Client::update_action_board(int result, unsigned int x, unsigned int y) {
+
+    //Cut and pasted from previous function, and reversed it to do the output
+    string fName = "player_" + to_string(player) + ".action_board.json";
+    vector<int> v(board_size, 0);
+    vector<vector<int>> board(board_size, v);
+    ifstream file;
+    file.open(fName, ifstream::in);
+    if(file) {
+        {
+            cereal::JSONInputArchive arc(file);
+            arc(board);
+        }
+    }
+    board[x][y] = result; //its a 2d vector so we can call it like this and set it equal ot result
+
+    ofstream output;
+    output.open(fName, ofstream::out);
+    if(output){
+        {
+            cereal::JSONOutputArchive arc(output);
+            arc(CEREAL_NVP(board));
+        }
+    }
+
+
+
+
+
+
+
+
+
 }
 
 

@@ -91,6 +91,8 @@ public:
      */
     int get_result();
 
+
+
     /**
      * Updates the internal representation of player_#.action_board.json on the result of a shot.
      * @param result - the result returned from the server
