@@ -59,7 +59,15 @@ void Client::fire(unsigned int x, unsigned int y) {
 
 
 bool Client::result_available() {
-
+    ifstream p1_result_file("player_1.result.json");
+    ifstream p2_result_file("player_2.result.json");
+    if (p1_result_file || p2_result_file)
+    {
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
 
@@ -121,4 +129,22 @@ void Client::update_action_board(int result, unsigned int x, unsigned int y) {
 
 
 string Client::render_action_board(){
+    string action_board;
+
+    if (player == 1)
+    {
+        ofstream player_1_action_board("player_1.action_board.json");
+        cereal::JSONOutputArchive write_archive(player_1_action_board);
+        write_archive(cereal::make_nvp("board", action_board));
+        player_1_action_board.close();
+    }
+    else if (player == 2)
+    {
+        ofstream player_2_action_board("player_2.action_board.json");
+        cereal::JSONOutputArchive write_archive(player_2_action_board);
+        write_archive(cereal::make_nvp("board", action_board));
+        player_2_action_board.close();
+    }
+    //cout << action_board << std::endl;
+    return action_board;
 }
