@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Battleship" targetName="run_server" />
+      <config projectName="Battleship" targetName="gmock_main" />
+      <config projectName="Battleship" targetName="gtest" />
+      <config projectName="Battleship" targetName="SERVER" />
+      <config projectName="Battleship" targetName="run_client" />
+      <config projectName="Battleship" targetName="battleship_tests" />
+      <config projectName="Battleship" targetName="gtest_main" />
+      <config projectName="Battleship" targetName="CLIENT" />
+      <config projectName="Battleship" targetName="gmock" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2cccea71-69a4-4c94-9616-8924ac113308" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/player_2.setup_board.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\David\Documents\School\Spring 2020\366f\CSCI_366_Programming_Assignments\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="RdCezybs" />
+  </component>
+  <component name="ProjectId" id="1YuKBYVw3JhK9hOC3XKhTgXZpPQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager" selected="Google Test.ServerEvaluateShot.Bad_Player_Number_Low">
+    <configuration name="ServerEvaluateShot.Bad_Player_Number_Low" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="battleship_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Battleship" RUN_TARGET_NAME="battleship_tests" TEST_CLASS="ServerEvaluateShot" TEST_METHOD="Bad_Player_Number_Low" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerEvaluateShot.Max_In_Bounds" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="battleship_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Battleship" RUN_TARGET_NAME="battleship_tests" TEST_CLASS="ServerEvaluateShot" TEST_METHOD="Max_In_Bounds" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerEvaluateShot.Miss_Detected" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="battleship_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Battleship" RUN_TARGET_NAME="battleship_tests" TEST_CLASS="ServerEvaluateShot" TEST_METHOD="Miss_Detected" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerEvaluateShot.Out_Of_Bounds_X" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="battleship_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Battleship" RUN_TARGET_NAME="battleship_tests" TEST_CLASS="ServerEvaluateShot" TEST_METHOD="Out_Of_Bounds_X" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerInitialize.Bad_File_Name" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="battleship_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Battleship" RUN_TARGET_NAME="battleship_tests" TEST_CLASS="ServerInitialize" TEST_METHOD="Bad_File_Name" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CLIENT" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="CLIENT" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SERVER" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="SERVER" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="run_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Battleship" RUN_TARGET_NAME="run_client">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="run_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Battleship" RUN_TARGET_NAME="run_server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="CMake Application.CLIENT" />
+      <item itemvalue="CMake Application.run_client" />
+      <item itemvalue="CMake Application.run_server" />
+      <item itemvalue="CMake Application.SERVER" />
+      <item itemvalue="Google Test.ServerEvaluateShot.Bad_Player_Number_Low" />
+      <item itemvalue="Google Test.ServerEvaluateShot.Max_In_Bounds" />
+      <item itemvalue="Google Test.ServerEvaluateShot.Miss_Detected" />
+      <item itemvalue="Google Test.ServerEvaluateShot.Out_Of_Bounds_X" />
+      <item itemvalue="Google Test.ServerInitialize.Bad_File_Name" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.ServerEvaluateShot.Bad_Player_Number_Low" />
+        <item itemvalue="Google Test.ServerEvaluateShot.Max_In_Bounds" />
+        <item itemvalue="Google Test.ServerEvaluateShot.Out_Of_Bounds_X" />
+        <item itemvalue="Google Test.ServerEvaluateShot.Miss_Detected" />
+        <item itemvalue="Google Test.ServerInitialize.Bad_File_Name" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cccea71-69a4-4c94-9616-8924ac113308" name="Default Changelist" comment="" />
+      <created>1583786903068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583786903068</updated>
+      <workItem from="1583786904995" duration="422000" />
+      <workItem from="1583787349521" duration="268000" />
+      <workItem from="1583787643024" duration="2563000" />
+      <workItem from="1583809116768" duration="10512000" />
+      <workItem from="1583938683724" duration="2064000" />
+      <workItem from="1583965726162" duration="333000" />
+      <workItem from="1583966080039" duration="125000" />
+      <workItem from="1583966232848" duration="88000" />
+      <workItem from="1583966401347" duration="20772000" />
+      <workItem from="1583992975350" duration="853000" />
+      <workItem from="1583994055907" duration="29998000" />
+      <workItem from="1584076010018" duration="310000" />
+      <workItem from="1584109456978" duration="2505000" />
+      <workItem from="1585594616074" duration="18000" />
+      <workItem from="1587319505282" duration="200000" />
+      <workItem from="1587319852065" duration="657000" />
+      <workItem from="1587320531999" duration="1794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583966568809">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1583966568809" />
+    <state x="67" y="0" key="CommitChangelistDialog2" timestamp="1587320589589">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="67" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1587320589589" />
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1583787454998">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1583787454998" />
+    <state width="1281" height="130" key="GridCell.Tab.0.bottom" timestamp="1587322426517">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="130" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587322426517" />
+    <state width="1281" height="130" key="GridCell.Tab.0.center" timestamp="1587322426517">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="130" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587322426517" />
+    <state width="1281" height="130" key="GridCell.Tab.0.left" timestamp="1587322426517">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="130" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587322426517" />
+    <state width="1281" height="130" key="GridCell.Tab.0.right" timestamp="1587322426517">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="130" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587322426517" />
+    <state width="1281" height="228" key="GridCell.Tab.1.bottom" timestamp="1583992903448">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="228" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1583992903448" />
+    <state width="1281" height="228" key="GridCell.Tab.1.center" timestamp="1583992903448">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="228" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1583992903448" />
+    <state width="1281" height="228" key="GridCell.Tab.1.left" timestamp="1583992903448">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="228" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1583992903448" />
+    <state width="1281" height="228" key="GridCell.Tab.1.right" timestamp="1583992903448">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="228" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1583992903448" />
+    <state x="142" y="4" key="SettingsEditor" timestamp="1587320600082">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="4" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1587320600082" />
+    <state x="450" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587320694897">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="450" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1587320694897" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1584063512765">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1584063512765" />
+  </component>
+</project>
