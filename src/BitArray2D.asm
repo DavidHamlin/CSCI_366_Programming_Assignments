@@ -1,4 +1,3 @@
-
         global  set_bit_elem
         global  get_bit_elem
         section .text
@@ -12,7 +11,8 @@ set_bit_elem:
         ; rdx contains row
         ; rcx contains col
 
-        ; add your code here
+      ;  mov rax,rcx
+      ;  mov rax,rdx
 
         mov rsp, rbp        ; restore stack pointer to before we pushed parameters onto the stack
         pop rbp             ; remove rbp from the stack to restore rsp to initial value
@@ -21,17 +21,17 @@ set_bit_elem:
 
 
 
+
 get_bit_elem:
         push rbp            ; save the base pointer on the stack (at rsp+8)
         mov rbp, rsp        ; set up the rbp for the bottom of this frame
-
         ; rdi contains array pointer
         ; rsi contains row width
         ; rdx contains row
         ; rcx contains col
 
-        ; add your code here - for now returning 0
-        mov rax, 0
+        setl al
+       ; movsx rax, al
 
         mov rsp, rbp        ; restore stack pointer to before we pushed parameters onto the stack
         pop rbp             ; remove rbp from the stack to restore rsp to initial value
