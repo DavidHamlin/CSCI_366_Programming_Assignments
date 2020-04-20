@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-# CSCI 366 Programming Assignments
-Programming Assignments for the CSCI 366: Computer Systems course at Montana State University
 
-Please choose a branch corresponding to a programming assignment.
-=======
-# CSCI 466 PA2 - Bit Board Storage
+# CSCI 366 PA2 - Bit Board Storage
 
 ## Instructions
 
