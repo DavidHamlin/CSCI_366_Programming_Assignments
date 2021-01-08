@@ -3,9 +3,9 @@
 This game is an implementation of a basic version of the 
 [Battleship](https://en.wikipedia.org/wiki/Battleship_\(game\)) 
 game.
-You will use the standard 
+The standard
 [10x10 variation of the game](https://en.wikipedia.org/wiki/Battleship_\(game\)#Description)
-.
+was used.
 
 
 The assignemnt uses a client server architecture.
